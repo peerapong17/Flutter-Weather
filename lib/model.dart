@@ -1,11 +1,11 @@
 class WeatherInfo {
-  String weather;
-  String location;
-  double temp;
-  double tempMax;
-  double tempMin;
-  int humidity;
-  double windSpeed;
+  String? weather;
+  String? location;
+  double? temp;
+  double? tempMax;
+  double? tempMin;
+  int? humidity;
+  double? windSpeed;
 
   WeatherInfo(
       {this.weather,
